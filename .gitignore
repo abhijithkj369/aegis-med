@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# Ignore heavy model weights if downloaded locally, but keep our tiny LoRA adapter
+*.bin
+*.safetensors
